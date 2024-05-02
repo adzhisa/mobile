@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { loadFonts } from './fonts'; 
-import WelcomeScreen from './WelcomeScreen';
-import ChooseLanguageScreen from './ChooseLanguageScreen';
-import LoadingScreen from './LoadingScreen';
-import InternetScreen from './InternetScreen';
-import LoginScreen from './LoginScreen';
-import SignupScreen from './SignupScreen';
-import MainScreen from './MainScreen';
-import ProfileScreen from './ProfileScreen';
-import AnimalScreen from './AnimalScreen'; 
-import WordScreen from './WordScreen';
-import ListeningScreen from './ListeningScreen';
+import { loadFonts } from './app/fonts'; 
+import WelcomeScreen from './app/WelcomeScreen';
+import ChooseLanguageScreen from './app/ChooseLanguageScreen';
+import LoadingScreen from './app/LoadingScreen';
+import InternetScreen from './app/InternetScreen';
+import LoginScreen from './app/LoginScreen';
+import SignupScreen from './app/SignupScreen';
+import MainScreen from './app/MainScreen';
+import ProfileScreen from './app/ProfileScreen';
+import AnimalScreen from './app/AnimalScreen'; 
+import WordScreen from './app/WordScreen';
+import ListeningScreen from './app/ListeningScreen';
 
 const Stack = createStackNavigator();
 
